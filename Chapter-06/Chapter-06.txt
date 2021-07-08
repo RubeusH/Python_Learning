@@ -1,0 +1,1 @@
+This directory contains all programs written for chapter 6 of the book Starting Out With Python
