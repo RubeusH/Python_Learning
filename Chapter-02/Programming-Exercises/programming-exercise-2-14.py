@@ -1,0 +1,6 @@
+P = float(input("How much is initially deposited? "))
+r = float(input("What is the interest rate? "))
+n = float((input("How many times per year is the investment compounded? ")))
+t = float(input("How many years will this investment last? "))
+A = P*(1+r*n)*(n*t)
+print("After", t, "years", "there is $" +  format(A, '.2f'), "in the accmunt")
